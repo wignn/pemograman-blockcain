@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/storage.sol": "MyContract"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/storage.sol": {
+			"keccak256": "0x24c18b209566adae884a7e469bfbd6b7d78915ba93c00e11f2c6d5b7f3e8cb47",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://59a21c916390fec375cb8d8d8dccfde040a867abd4fe6891f8129cfb8d75d6c0",
+				"dweb:/ipfs/QmRTxBtDfmR5c3RY7NUVZQ8QWhuPyU8nvuY9AawvJTYMy5"
+			]
+		}
+	},
+	"version": 1
+}
