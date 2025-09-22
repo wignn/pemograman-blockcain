@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doSomething",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "readData",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nama",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "alamat",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "tanggal_lahir",
+						"type": "uint16"
+					},
+					{
+						"internalType": "string",
+						"name": "jenis_kelamin",
+						"type": "string"
+					}
+				],
+				"name": "storeData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/tugas-2.sol": "Datastore2"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/tugas-2.sol": {
+			"keccak256": "0x53020ee902fe4f7678830e82a5c41186ae54212fe5533c5f9c733f00ccc58c1b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://634099ca858b432128cf2288fbb28c85dcfe9790dc3d1dfd0cadee86c75e145e",
+				"dweb:/ipfs/QmNd7Qj8u7XhMq2o9mZ2mmenv7Zmq1gtmEAfheBY35kpxe"
+			]
+		}
+	},
+	"version": 1
+}
