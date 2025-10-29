@@ -1,0 +1,34 @@
+{
+  "name": "pemograman-blockcain",
+  "version": "1.0.0",
+  "main": "deploy.js",
+  "type": "commonjs",
+  
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wignn/pemograman-blockcain.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wignn/pemograman-blockcain/issues"
+  },
+  "homepage": "https://github.com/wignn/pemograman-blockcain#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "hardhat": "^3.0.7"
+  },
+  "devDependencies": {
+    "ethers": "^6.15.0",
+    "solc": "^0.8.19"
+  }
+}

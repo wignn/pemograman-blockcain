@@ -1,5 +1,6 @@
 import { ethers } from "hardhat"
-;(async () => {
+
+(async () => {
     try {
         const SimpleStorageFactory = await ethers.getContractFactory(
             "SimpleStorage"
